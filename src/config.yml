@@ -1,0 +1,35 @@
+# player group defaults to "Member"
+
+pluginPrefix: '&8[&4P&cP&8]&f'
+
+defaults:
+   nameColor: "&7"
+   chatColor: "&f"
+   prefix: ""
+   suffix: ""
+
+groups:
+   member:
+      permissions:
+      - blockbreak
+      - blockplace
+      prefix: ""
+   developer:
+      permissions:
+      - blockbreak
+      - blockplace
+      prefix: "&8[&5Developer&8]"
+      nameColor: "&d"
+      chatColor: "&b"
+   owner:
+      permissions:
+      - '*'
+      prefix: "&8[&4Owner&8]"
+      nameColor: "&c"
+      chatColor: "&b"
+
+players:
+   PixlBrosGamingYT:
+      group: owner
+      permissions:
+      - '"'

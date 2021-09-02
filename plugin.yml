@@ -1,0 +1,10 @@
+main: com.pixlperms.main.Main
+name: PixlPerms
+version: 2.0.0
+api-version: 1.17
+author: PixlBrosGamingYT
+description: An easy-to-use permission plugin
+commands:
+   pixlperms:
+      aliases: perms
+      usage: /pixlperms help
